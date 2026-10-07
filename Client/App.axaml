@@ -12,6 +12,7 @@
     <Application.Styles>
         <FluentTheme />
         <StyleInclude Source="Assets/Styles/AppStyles.axaml"></StyleInclude>
+        <StyleInclude Source="Assets/Styles/MenuButtonStyles.axaml"></StyleInclude>
     </Application.Styles>
 
     <Application.Resources>
