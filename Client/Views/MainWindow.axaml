@@ -31,6 +31,18 @@
                                 <Label Content="Produkter" />
                             </StackPanel>
                         </Button>
+                        <Button Command="{Binding GoToOrdersCommand}" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE964;" />
+                                <Label Content="Beställningar" />
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GoToCustomersCommand}" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE4C2;" />
+                                <Label Content="Kunder" />
+                            </StackPanel>
+                        </Button>
                     </StackPanel>
                     <Button Grid.Row="1" 
                         Command="{Binding GoToSettingsCommand}" 

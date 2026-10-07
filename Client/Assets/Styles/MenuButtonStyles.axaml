@@ -27,8 +27,8 @@
    </Style>
 
    <Style Selector="Button:pointerover /template/ ContentPresenter">
-    <Setter Property="Background" Value="Pink" />
-    <Setter Property="Foreground" Value="Green" />
+    <Setter Property="Background" Value="#8198F5" />
+    <Setter Property="Foreground" Value="#072A4D" />
     <Setter Property="FontWeight" Value="SemiBold" />
    </Style>
 
