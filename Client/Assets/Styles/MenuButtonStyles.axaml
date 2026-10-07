@@ -21,15 +21,13 @@
     <Setter Property="FontSize" Value="24" />
     <Setter Property="Padding" Value="15 10" />
     <Setter Property="HorizontalAlignment" Value="Stretch" />
-    <Setter Property="CornerRadius" Value="50" />
-    <Setter Property="BorderBrush" Value="White" />
-    <Setter Property="BorderThickness" Value="1" />
+    <Setter Property="CornerRadius" Value="10" />
    </Style>
 
-   <Style Selector="Button:pointerover /template/ ContentPresenter">
+   <!-- <Style Selector="Button:pointerover /template/ ContentPresenter">
     <Setter Property="Background" Value="#8198F5" />
     <Setter Property="Foreground" Value="#072A4D" />
     <Setter Property="FontWeight" Value="SemiBold" />
-   </Style>
+   </Style> -->
 
 </Styles>

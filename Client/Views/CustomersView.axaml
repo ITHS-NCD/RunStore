@@ -4,5 +4,5 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Client.Views.CustomersView">
-  <TextBlock Text="Här är Kunderna" HorizontalAlignment="Center" FontSize="30" />
+  <TextBlock Text="Kund Lista" HorizontalAlignment="Center" FontSize="30" />
 </UserControl>

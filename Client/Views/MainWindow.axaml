@@ -21,26 +21,26 @@
                         </StackPanel>
                         <Button Command="{Binding GoToHomeCommand}">
                             <StackPanel Orientation="Horizontal">
-                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE2C2;" />
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE2C2;" VerticalAlignment="Center" />
                                 <Label Content="Hem" />
                             </StackPanel>
                         </Button>
                         <Button Command="{Binding GoToProductsCommand}" >
                             <StackPanel Orientation="Horizontal">
-                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xED60;" />
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xED60;" VerticalAlignment="Center" />
                                 <Label Content="Produkter" />
-                            </StackPanel>
-                        </Button>
-                        <Button Command="{Binding GoToOrdersCommand}" >
-                            <StackPanel Orientation="Horizontal">
-                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE964;" />
-                                <Label Content="Beställningar" />
                             </StackPanel>
                         </Button>
                         <Button Command="{Binding GoToCustomersCommand}" >
                             <StackPanel Orientation="Horizontal">
-                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE4C2;" />
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE4D6;" VerticalAlignment="Center" />
                                 <Label Content="Kunder" />
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GoToOrdersCommand}" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE964;" VerticalAlignment="Center" />
+                                <Label Content="Beställningar" />
                             </StackPanel>
                         </Button>
                     </StackPanel>
