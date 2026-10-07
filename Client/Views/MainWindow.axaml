@@ -14,7 +14,7 @@
             <Border Background="{DynamicResource PrimaryBackgroundGradient}" Padding="4">
                 <Grid RowDefinitions="*,Auto" Margin="5">
                     <StackPanel Grid.Row="0" Spacing="4">
-                        <StackPanel Orientation="Horizontal" Spacing="20" Margin="3">
+                        <StackPanel Orientation="Horizontal" Spacing="12" Margin="3">
                             <!-- <Image Width="48" Height="48" Source="avares://Client/Assets/Images/runstore.png" /> -->
                             <Image Source="{SvgImage /Assets/Images/runstore.svg}" Width="60" ></Image>
                             <TextBlock Text="Run Store" VerticalAlignment="Center" Foreground="{DynamicResource PrimaryTextColor}" FontSize="20" />
@@ -22,13 +22,13 @@
                         <Button Command="{Binding GoToHomeCommand}" FontSize="16" HorizontalAlignment="Stretch">
                             <StackPanel Orientation="Horizontal">
                                 <Label FontFamily="{DynamicResource IconFont}" Content="&#xE2C2;" />
-                                <Label Content="Hem"  />
+                                <Label Content="Hem" />
                             </StackPanel>
                         </Button>
                         <Button Command="{Binding GoToProductsCommand}" FontSize="16" HorizontalAlignment="Stretch">
                             <StackPanel Orientation="Horizontal">
-                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE390;" />
-                                <Label Content="Produkter"  />
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xED60;" />
+                                <Label Content="Produkter" />
                             </StackPanel>
                         </Button>
                     </StackPanel>
