@@ -17,22 +17,24 @@
                <TextBlock Classes="h1" Text="{Binding PageTitle}" />
               
               <Border BorderBrush="White" BorderThickness="0 0 0 1" Margin="10 5">
-                <Grid ColumnDefinitions="200,200,300,*">
-                  <Label Content="Förnamn" FontSize="20" />
-                  <Label Grid.Column="1" Content="Efternamn" FontSize="20" />
-                  <Label Grid.Column="2" Content="E-post" FontSize="20" />
-                  <Label Grid.Column="3" Content="Telefon Nummer" FontSize="20" />
+                <Grid ColumnDefinitions="300,200,200,300,*">
+                  <Label Content="Kund ID" FontSize="20" />
+                  <Label Grid.Column="1" Content="Förnamn" FontSize="20" />
+                  <Label Grid.Column="2" Content="Efternamn" FontSize="20" />
+                  <Label Grid.Column="3" Content="E-post" FontSize="20" />
+                  <Label Grid.Column="4" Content="Telefon Nummer" FontSize="20" />
                 </Grid>
               </Border>
 
               <ItemsControl ItemsSource="{Binding Customers}">
                 <ItemsControl.ItemTemplate>
                   <DataTemplate>
-                    <Grid ColumnDefinitions="200,200,300,*" Margin="13 5">
-                    <Label Content="{Binding FirstName}" Grid.Column="0" />
-                    <Label Content="{Binding LastName}" Grid.Column="1" />
-                    <Label Content="{Binding Email}" Grid.Column="2" />
-                    <Label Content="{Binding PhoneNumber}" Grid.Column="3" />
+                    <Grid ColumnDefinitions="300,200,200,300,*" Margin="13 5">
+                    <Label Content="{Binding Id}" FontSize="20" />
+                    <Label Content="{Binding FirstName}" Grid.Column="1" FontSize="20" />
+                    <Label Content="{Binding LastName}" Grid.Column="2" FontSize="20" />
+                    <Label Content="{Binding Email}" Grid.Column="3" FontSize="20" />
+                    <Label Content="{Binding PhoneNumber}" Grid.Column="4" FontSize="20" />
                     </Grid>
                   </DataTemplate>
                 </ItemsControl.ItemTemplate>
