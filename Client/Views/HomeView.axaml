@@ -8,5 +8,5 @@
              x:DataType="vm:HomeViewModel"
              Background="{DynamicResource PrimaryBackgroundColor}">
 
-          <TextBlock Classes="h1" Text="{DynamicResource PageTitle}" />
+          <TextBlock Classes="h1" Text="{Binding PageTitle}" />
 </UserControl>
