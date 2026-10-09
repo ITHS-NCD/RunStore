@@ -34,7 +34,7 @@
     "firstName": "Erik",
     "lastName": "Andersson",
     "email": "erik.andersson@example.com",
-    "phoneNumber": "070-123 45 67",
+    "phoneNumber": "0701234567",
     "street": "Storgatan 12",
     "city": "Falkenberg",
     "zipCode": "311 30"
@@ -44,7 +44,7 @@
     "firstName": "Emma",
     "lastName": "Johansson",
     "email": "emma.johansson@example.com",
-    "phoneNumber": "073-234 56 78",
+    "phoneNumber": "0732345678",
     "street": "Kungsgatan 8",
     "city": "Falkenberg",
     "zipCode": "311 31"

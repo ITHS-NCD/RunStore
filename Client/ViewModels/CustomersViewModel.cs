@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using Client.Models;
+using Client.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Client.ViewModels;

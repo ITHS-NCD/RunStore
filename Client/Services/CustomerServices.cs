@@ -7,7 +7,7 @@ using Client.Models;
 using Client.Repositories;
 using Client.ViewModels;
 
-namespace Client;
+namespace Client.Services;
 
 public class CustomerServices
 {

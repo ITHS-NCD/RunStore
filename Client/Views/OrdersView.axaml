@@ -6,5 +6,33 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Client.Views.OrdersView"
              x:DataType="vm:OrdersViewModel">
-  <TextBlock Classes="h1" Text="{Binding PageTitle}" />
+
+            <Design.DataContext> <vm:OrdersViewModel/></Design.DataContext>
+
+
+              <StackPanel>
+               <TextBlock Classes="h1" Text="{Binding PageTitle}" />
+              
+              <Border BorderBrush="White" BorderThickness="0 0 0 1" Margin="10 5">
+                <Grid ColumnDefinitions="200,200,200,*">
+                  <Label Content="Order Nummer" FontSize="20" />
+                  <Label Grid.Column="1" Content="Datum" FontSize="20" />
+                  <Label Grid.Column="2" Content="Produkt" FontSize="20" />
+                  <Label Grid.Column="3" Content="Antal" FontSize="20" />
+                </Grid>
+              </Border>
+
+              <ItemsControl ItemsSource="{Binding Orders}">
+                <ItemsControl.ItemTemplate>
+                  <DataTemplate>
+                    <Grid ColumnDefinitions="200,200,200,*" Margin="13 5">
+                      <Label Content="{Binding OrderNumber}" FontSize="20" />
+                      <Label Content="{Binding OrderDate}" Grid.Column="1" FontSize="20" />
+                      <Label Content="{Binding OrderProduct}" Grid.Column="2" FontSize="20" />
+                      <Label Content="{Binding Quantity}" Grid.Column="3" FontSize="20" />
+                    </Grid>
+                  </DataTemplate>
+                </ItemsControl.ItemTemplate>
+              </ItemsControl>               
+             </StackPanel>
 </UserControl>
