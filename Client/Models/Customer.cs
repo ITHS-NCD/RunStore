@@ -13,4 +13,6 @@ public record class Customer
     public string? City { get; set; }
     public string? ZipCode { get; set; }
 
+    public void Edit() => Console.WriteLine("Ändra kunduppgifter");
+    public void Delete() => Console.WriteLine("Ta bort kund");
 }
