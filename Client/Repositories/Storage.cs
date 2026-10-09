@@ -9,7 +9,7 @@ namespace Client.Repositories;
 
 public class Storage<T> : IStorage<T> where T : class
 {
-    private static readonly JsonSerializerOptions _options = new()
+    private readonly JsonSerializerOptions _options = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         WriteIndented = true,
@@ -21,7 +21,7 @@ public class Storage<T> : IStorage<T> where T : class
         try
         {
             var storedProducts = File.ReadAllText(path);
-            var data = JsonSerializer.Deserialize<List<T>>(storedProducts, _options);
+            // var data = JsonSerializer.Deserialize<List<T>>(storedProducts, _options);
 
             // return data && [];
             if (!string.IsNullOrWhiteSpace(storedProducts))
@@ -51,6 +51,4 @@ public class Storage<T> : IStorage<T> where T : class
             throw new Exception(ex.Message);
         }
     }
-
-
 }

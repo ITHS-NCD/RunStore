@@ -17,7 +17,7 @@
                <TextBlock Classes="h1" Text="{Binding PageTitle}" />
               
               <Border BorderBrush="White" BorderThickness="0 0 0 1" Margin="10 5">
-                <Grid ColumnDefinitions="300,200,200,300,*">
+                <Grid ColumnDefinitions="100,200,200,350,*">
                   <Label Content="Kund ID" FontSize="20" />
                   <Label Grid.Column="1" Content="Förnamn" FontSize="20" />
                   <Label Grid.Column="2" Content="Efternamn" FontSize="20" />
@@ -29,7 +29,7 @@
               <ItemsControl ItemsSource="{Binding Customers}">
                 <ItemsControl.ItemTemplate>
                   <DataTemplate>
-                    <Grid ColumnDefinitions="300,200,200,300,*" Margin="13 5">
+                    <Grid ColumnDefinitions="100,200,200,350,*" Margin="13 5">
                     <Label Content="{Binding Id}" FontSize="20" />
                     <Label Content="{Binding FirstName}" Grid.Column="1" FontSize="20" />
                     <Label Content="{Binding LastName}" Grid.Column="2" FontSize="20" />

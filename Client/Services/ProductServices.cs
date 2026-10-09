@@ -11,11 +11,19 @@ namespace Client.Services;
 public class ProductServices
 {
     private static string _path = Directory.GetCurrentDirectory() + "/Data/products.json";
-    static Storage<Product> storage = new();
+    private static Storage<Product> storage = new();
 
     public static List<Product> ListAllProducts()
     {
-        var json = storage.Read(_path).OrderBy(x => x.ItemNumber).ToList();
-        return json;
+        if (!Directory.Exists(Environment.CurrentDirectory + "/Data"))
+        {
+            Directory.CreateDirectory(Environment.CurrentDirectory + "/Data");
+        }
+        if (!File.Exists(_path))
+        {
+            File.Create(_path);
+        }
+        var products = storage.Read(_path).OrderBy(x => x.ItemNumber).ToList();
+        return products;
     }
 }

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "444d8f17-a259-4993-b0f2-79c75e9bd03a",
+    "firstName": "Alfred",
+    "lastName": "Wendt",
+    "email": "affewendt@gmail.com",
+    "phoneNumber": "0760869095",
+    "street": "Mölndalsvägen 69A",
+    "city": "Göteborg",
+    "zipCode": "412 85"
+  },
+  {
+    "id":"0c3b2155-1096-47ef-8b7c-8bb174b96a26",
+    "firstName": "Göran",
+    "lastName": "Larsson",
+    "email": "göran.larsson@hotmail.com",
+    "phoneNumber": "0707458998",
+    "street": "Göteborgsvägen 34",
+    "city": "Mölndal",
+    "zipCode": "423 74"
+  },
+  {
+    "id":"8c6f1294-5ebe-4873-90e3-f2fc0bff9a43",
+    "firstName": "Anna",
+    "lastName": "Karlsson",
+    "email": "annakarlsson@mail.com",
+    "phoneNumber": "0707123456",
+    "street": "Vägen 12",
+    "city": "Älvängen",
+    "zipCode": "433 25"
+  },
+  {
+    "id":"4eab8ae2-007a-4a7a-b257-108e4dd0a9aa",
+    "firstName": "Erik",
+    "lastName": "Andersson",
+    "email": "erik.andersson@example.com",
+    "phoneNumber": "070-123 45 67",
+    "street": "Storgatan 12",
+    "city": "Falkenberg",
+    "zipCode": "311 30"
+  },
+  {
+    "id":"b8a492ef-2760-4425-b0d7-be5596033a92",
+    "firstName": "Emma",
+    "lastName": "Johansson",
+    "email": "emma.johansson@example.com",
+    "phoneNumber": "073-234 56 78",
+    "street": "Kungsgatan 8",
+    "city": "Falkenberg",
+    "zipCode": "311 31"
+  }
+  
+]
