@@ -43,6 +43,12 @@
                                 <Label Content="Beställningar" />
                             </StackPanel>
                         </Button>
+                        <Button Command="{Binding GoToAddCommand}" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontFamily="{DynamicResource IconFont}" Content="&#xE3D4;" VerticalAlignment="Center" />
+                                <Label Content="Addera" />
+                            </StackPanel>
+                        </Button>
                     </StackPanel>
                     <Button Grid.Row="1" 
                         Command="{Binding GoToSettingsCommand}" 

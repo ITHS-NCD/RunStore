@@ -12,6 +12,7 @@ public partial class MainWindowViewModel : ViewModelBase
     private readonly SettingsViewModel _settingsView = new();
     private readonly CustomersViewModel _customersView = new();
     private readonly OrdersViewModel _ordersView = new();
+    private readonly AddViewModel _addView = new();
 
     [ObservableProperty]
     public partial ViewModelBase CurrentView { get; set; }
@@ -36,4 +37,6 @@ public partial class MainWindowViewModel : ViewModelBase
     [RelayCommand]
     private void GoToOrders() => CurrentView = _ordersView;
 
+    [RelayCommand]
+    private void GoToAdd() => CurrentView = _addView;
 }
